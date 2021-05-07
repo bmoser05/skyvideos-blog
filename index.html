@@ -28,9 +28,26 @@
 }
 
   </script>
+  
+   
+  <div class="tab">
+    <button class="tablinks" onclick="openTab('event', 'Whats going on')">What's going on</button>
+     <button class="tablinks" onclick="openTab('event', 'Other')">other</button>
+  </div>
+  
+  <div id="Whats going on" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'">x</span>
 
 <h1>SKYVIDEOS BLOG</h1>
- 
+
   
 
 Currently Undergoing developement: Planning Code
+    
+  </div>
+  
+  <div id="Other" class="tabcontent">
+    Nothing here yet
+      <span onclick="this.parentElement.style.display='none'">x</span>
+  </div>
+  
